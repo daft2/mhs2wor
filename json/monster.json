@@ -1,0 +1,997 @@
+{
+  "monsters": [
+    {
+      "name": "Velocidrome",
+      "rank": "Low",
+      "island": "Hakalo Island",
+      "attackPattern": {
+        "initial": "Speed",
+        "enraged": "Technical"
+      },
+      "attackCounter": {
+        "initial": "Technical",
+        "enraged": "Power"
+      },
+      "elementWeakness": "Ice",
+      "partWeakness": null,
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Bulldrome",
+      "rank": "Low",
+      "island": "Hakalo Island",
+      "attackPattern": {
+        "initial": "Power",
+        "enraged": "Speed"
+      },
+      "attackCounter": {
+        "initial": "Speed",
+        "enraged": "Technical"
+      },
+      "elementWeakness": "Thunder",
+      "partWeakness": null,
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Deviljho",
+      "rank": "Low",
+      "island": "Hakalo Island",
+      "attackPattern": {
+        "initial": "Power",
+        "enraged": "Speed"
+      },
+      "attackCounter": {
+        "initial": "Speed",
+        "enraged": "Technical"
+      },
+      "elementWeakness": "Dragon",
+      "partWeakness": [
+        { "Head": "Slash" },
+        { "Body": "Blunt" },
+        { "Legs": "Slash" },
+        { "Tail": "Slash" }
+      ],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Bazelgeuse",
+      "rank": "Low",
+      "island": "Hakalo Island",
+      "attackPattern": {
+        "initial": "Speed",
+        "enraged": "Technical"
+      },
+      "attackCounter": {
+        "initial": "Technical",
+        "enraged": "Power"
+      },
+      "elementWeakness": "Thunder",
+      "partWeakness": [
+        { "Head": "Blunt" },
+        { "Stomach": "Slash" },
+        { "Tail": "Slash" },
+        { "Wings": "Pierce" }
+      ],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Kulu-Ya-Ku",
+      "rank": "Low",
+      "island": "Hakalo Island",
+      "attackPattern": {
+        "initial": "Technical",
+        "holding_a_rock": "Power"
+      },
+      "attackCounter": {
+        "initial": "Power",
+        "holding_a_rock": "Speed"
+      },
+      "elementWeakness": "Water",
+      "partWeakness": [{ "Rock": "Blunt" }],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Pukei-Pukei",
+      "rank": "Low",
+      "island": "Hakalo Island",
+      "attackPattern": {
+        "initial": "Technical",
+        "crunch_time": "Power"
+      },
+      "attackCounter": {
+        "initial": "Power",
+        "crunch_time": "Speed"
+      },
+      "elementWeakness": "Thunder",
+      "partWeakness": [
+        { "Head": "Blunt" },
+        { "Body": "Slash" },
+        { "Tail": "Slash" }
+      ],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Sand Barioth",
+      "rank": "Low",
+      "island": "Hakalo Island",
+      "attackPattern": {
+        "initial": "Speed",
+        "enraged": "Technical"
+      },
+      "attackCounter": {
+        "initial": "Technical",
+        "enraged": "Power"
+      },
+      "elementWeakness": "Ice",
+      "partWeakness": [
+        { "Spikes": "Blunt" },
+        { "Stomach": "Slash" },
+        { "Tail": "Slash" }
+      ],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Seregios",
+      "rank": "Low",
+      "island": "Hakalo Island",
+      "attackPattern": {
+        "initial": "Technical",
+        "enraged": "Speed"
+      },
+      "attackCounter": {
+        "initial": "Power",
+        "enraged": "Technical"
+      },
+      "elementWeakness": "Thunder",
+      "partWeakness": [
+        { "Head": "Pierce" },
+        { "Stomach": "Slash" },
+        { "Wings": "Pierce" },
+        { "Legs": "Slash" }
+      ],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Stygian Zinogre",
+      "rank": "Low",
+      "island": "Hakalo Island",
+      "attackPattern": {
+        "initial": "Technical",
+        "enraged": "Speed"
+      },
+      "attackCounter": {
+        "initial": "Power",
+        "enraged": "Technical"
+      },
+      "elementWeakness": "Thunder",
+      "partWeakness": [
+        { "Head": "Blunt" },
+        { "Body": "Pierce" },
+        { "Tail": "Slash" }
+      ],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Yian Kut-Ku",
+      "rank": "Low",
+      "island": "Hakalo Island",
+      "attackPattern": {
+        "initial": "Technical",
+        "enraged": "Speed"
+      },
+      "attackCounter": {
+        "initial": "Power",
+        "enraged": "Technical"
+      },
+      "elementWeakness": "Ice",
+      "partWeakness": [{ "Head": "Pierce" }],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Azure Rathalos",
+      "rank": "High",
+      "island": "Hakalo Island",
+      "attackPattern": {
+        "initial": "Power",
+        "flying": "Speed"
+      },
+      "attackCounter": {
+        "initial": "Speed",
+        "flying": "Technical"
+      },
+      "elementWeakness": "Dragon",
+      "partWeakness": [
+        { "Head": "Blunt" },
+        { "Stomach": "Slash" },
+        { "Tail": "Slash" },
+        { "Wings": "Slash" }
+      ],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Dreadking Rathalos",
+      "rank": "High",
+      "island": "Hakalo Island",
+      "attackPattern": {
+        "initial": "Not Flying",
+        "soaringInferno": "Speed",
+        "kingJudgment": "Technical"
+      },
+      "attackCounter": {
+        "initial": "Speed",
+        "soaringInferno": "Technical",
+        "kingJudgment": "Power"
+      },
+      "elementWeakness": "Dragon",
+      "partWeakness": [
+        { "Head": "Slash" },
+        { "Stomach": "Blunt/Slash" },
+        { "Tail": "Blunt/Slash" },
+        { "Wings": "Pierce/Slash" }
+      ],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Silverwind Nargacuga",
+      "rank": "High",
+      "island": "Hakalo Island",
+      "attackPattern": {
+        "initial": "Technical",
+        "enraged": "Speed"
+      },
+      "attackCounter": {
+        "initial": "Power",
+        "enraged": "Technical"
+      },
+      "elementWeakness": "Thunder",
+      "partWeakness": [
+        { "Head": "Blunt" },
+        { "Stomach": "Slash" },
+        { "Tail": "Pierce" }
+      ],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+
+    {
+      "name": "Arzuros",
+      "rank": "Low",
+      "island": "Alcala Region",
+      "attackPattern": {
+        "initial": "Power",
+        "enraged": "Technical"
+      },
+      "attackCounter": {
+        "initial": "Speed",
+        "enraged": "Power"
+      },
+      "elementWeakness": "Fire",
+      "partWeakness": [{ "Stomach": "Slash" }, { "Legs": "Blunt" }],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Basarios",
+      "rank": "Low",
+      "island": "Alcala Region",
+      "attackPattern": {
+        "initial": "Technical",
+        "enraged": "Power"
+      },
+      "attackCounter": {
+        "initial": "Power",
+        "enraged": "Speed"
+      },
+      "elementWeakness": "Water",
+      "partWeakness": [
+        { "Head": "Blung" },
+        { "Wings": "Pierce" },
+        { "Stomach": "Blunt" },
+        { "Tail": "Slash" }
+      ],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Blue Yian Kut-Ku",
+      "rank": "Low",
+      "island": "Alcala Region",
+      "attackPattern": {
+        "initial": "Technical",
+        "enraged": "Speed"
+      },
+      "attackCounter": {
+        "initial": "Power",
+        "enraged": "Technical"
+      },
+      "elementWeakness": "Water",
+      "partWeakness": [{ "Head": "Pierce" }],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Duramboros",
+      "rank": "Low",
+      "island": "Alcala Region",
+      "attackPattern": {
+        "initial": "Power",
+        "enraged": "Technical"
+      },
+      "attackCounter": {
+        "initial": "Speed",
+        "enraged": "Power"
+      },
+      "elementWeakness": "Fire",
+      "partWeakness": [
+        { "Body": "Blunt" },
+        { "Legs": "Slashing" },
+        { "Tail": "Blunt" }
+      ],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Glavenus",
+      "rank": "Low",
+      "island": "Alcala Region",
+      "attackPattern": {
+        "initial": "Power",
+        "Blaze": "Speed",
+        "After Fire Chakram": "Technical"
+      },
+      "attackCounter": {
+        "initial": "Speed",
+        "Blaze": "Technical",
+        "After Fire Chakram": "Power"
+      },
+      "elementWeakness": "Water",
+      "partWeakness": [
+        { "Head": "Slash" },
+        { "Body": "Blunt" },
+        { "Tail": "Nothing" }
+      ],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Great Jaggi",
+      "rank": "Low",
+      "island": "Alcala Region",
+      "attackPattern": {
+        "initial": "Technical",
+        "enraged": "Speed"
+      },
+      "attackCounter": {
+        "initial": "Power",
+        "enraged": "Technical"
+      },
+      "elementWeakness": "Fire",
+      "partWeakness": [{ "N/A": null }],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Monoblos",
+      "rank": "Low",
+      "island": "Alcala Region",
+      "attackPattern": {
+        "initial": "Speed",
+        "enraged": "Power"
+      },
+      "attackCounter": {
+        "initial": "Technical",
+        "enraged": "Speed"
+      },
+      "elementWeakness": "Thunder",
+      "partWeakness": [
+        { "Horn": "Pierce" },
+        { "Stomach": "Slash" },
+        { "Legs": "Pierce" },
+        { "Tail": "Pierce" }
+      ]
+    },
+    {
+      "name": "Nargacuga",
+      "rank": "Low",
+      "island": "Alcala Region",
+      "attackPattern": {
+        "initial": "Speed",
+        "enraged": "Technical"
+      },
+      "attackCounter": {
+        "initial": "Technical",
+        "enraged": "Power"
+      },
+      "elementWeakness": "Thunder",
+      "partWeakness": [
+        { "Head": "Blunt" },
+        { "Legs": "Slash" },
+        { "Wings": "Slash" }
+      ]
+    },
+    {
+      "name": "Paolumu",
+      "rank": "Low",
+      "island": "Alcala Region",
+      "attackPattern": {
+        "initial": "Technical",
+        "inflated": "Speed"
+      },
+      "attackCounter": {
+        "initial": "Power",
+        "inflated": "Technical"
+      },
+      "elementWeakness": "Fire",
+      "partWeakness": [{ "Neck Pouch": "Pierce" }, { "Body": "Slash" }]
+    },
+    {
+      "name": "Qurupeco",
+      "rank": "Low",
+      "island": "Alcala Region",
+      "attackPattern": {
+        "initial": "Technical",
+        "enraged": "Power"
+      },
+      "attackCounter": {
+        "initial": "Power",
+        "enraged": "Speed"
+      },
+      "elementWeakness": "Ice",
+      "partWeakness": [{ "Head": "Blunt" }, { "Body": "Slash" }]
+    },
+    {
+      "name": "Rathian",
+      "rank": "Low",
+      "island": "Alcala Region",
+      "attackPattern": {
+        "initial": "Speed",
+        "enraged": {
+          "initial": "Technical",
+          "enraged": "Speed"
+        }
+      },
+      "elementWeakness": "Dragon",
+      "partWeakness": [{ "Body": "Slash" }, { "Tail": "Slash" }]
+    },
+    {
+      "name": "Royal Ludroth",
+      "rank": "Low",
+      "island": "Alcala Region",
+      "attackPattern": {
+        "initial": "Power",
+        "enraged": "Technical"
+      },
+      "attackCounter": {
+        "initial": "Speed",
+        "enraged": "Power"
+      },
+      "elementWeakness": "Fire",
+      "partWeakness": [{ "Head": "Pierce" }, { "Stomach": "Slash" }],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Tetsucabra",
+      "rank": "Low",
+      "island": "Alcala Region",
+      "attackPattern": {
+        "initial": "Power",
+        "enraged": ""
+      },
+      "attackCounter": {
+        "initial": "Speed",
+        "enraged": ""
+      },
+      "elementWeakness": "Water",
+      "partWeakness": [{ "Rock": "Blunt" }],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Tigrex",
+      "rank": "Low",
+      "island": "Alcala Region",
+      "attackPattern": {
+        "initial": "Speed",
+        "enraged": "Power"
+      },
+      "attackCounter": {
+        "initial": "Technical",
+        "enraged": "Speed"
+      },
+      "elementWeakness": "Thunder",
+      "partWeakness": [{ "Head": "Slash" }, { "Legs": "Slash" }],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Yian Garuga",
+      "rank": "Low",
+      "island": "Alcala Region",
+      "attackPattern": {
+        "initial": "Technical",
+        "enraged": "Power"
+      },
+      "attackCounter": {
+        "initial": "Power",
+        "enraged": "Speed"
+      },
+      "elementWeakness": "Water",
+      "partWeakness": [{ "Head": "Slash" }, { "Tail": "Slash" }],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+
+    {
+      "name": "Anjanath",
+      "rank": "",
+      "island": "Loloska Region",
+      "attackPattern": { "initial": "Speed", "enraged": "Power" },
+      "attackCounter": { "initial": "Technical", "enraged": "Speed" },
+      "elementWeakness": "Water",
+      "partWeakness": [{ "Nose": "Blunt" }, { "Body": "Pierce" }],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Barioth",
+      "rank": "",
+      "island": "Loloska Region",
+      "attackPattern": {
+        "initial": "Speed",
+        "enraged": "Power"
+      },
+      "attackCounter": {
+        "initial": "Technical",
+        "enraged": "Speed"
+      },
+      "elementWeakness": "Fire",
+      "partWeakness": [
+        { "Spikes": "Blunt" },
+        { "Stomach": "Slash" },
+        { "Tail": "Slash" }
+      ],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Barroth",
+      "rank": "",
+      "island": "Loloska Region",
+      "attackPattern": {
+        "initial": "Speed",
+        "Covered in Mud": "Technical"
+      },
+      "attackCounter": {
+        "initial": "Technical",
+        "Covered in Mud": "Power"
+      },
+      "elementWeakness": "Fire",
+      "partWeakness": [
+        { "Head": "Blunt" },
+        { "Body": "Slash" },
+        { "Legs": "Slash" },
+        { "Tail": "Pierce" }
+      ],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Congalala",
+      "rank": "",
+      "island": "Loloska Region",
+      "attackPattern": { "initial": "Technical", "enraged": "Power" },
+      "attackCounter": { "initial": "Power", "enraged": "Speed" },
+      "elementWeakness": "Fire",
+      "partWeakness": [
+        { "Head": "Blunt" },
+        { "Body": "Pierce" },
+        { "Tail": "Slash" }
+      ],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Fulgur Anjanath",
+      "rank": "",
+      "island": "Loloska Region",
+      "attackPattern": {
+        "initial": "Power",
+        "enraged": "Speed"
+      },
+      "attackCounter": {
+        "initial": "Speed",
+        "enraged": "Technical"
+      },
+      "elementWeakness": "Ice",
+      "partWeakness": [
+        { "Body": "Pierce" },
+        { "Nose": "Pierce" },
+        { "Tail": "Pierce" },
+        { "Legs": "Slash" }
+      ],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Gammoth",
+      "rank": "",
+      "island": "Loloska Region",
+      "attackPattern": {
+        "initial": "Power",
+        "Snow Slurp": "Power"
+      },
+      "attackCounter": {
+        "initial": "Speed",
+        "Snow Slurp": "Speed"
+      },
+      "elementWeakness": "Fire",
+      "partWeakness": [
+        { "Head": "Blunt" },
+        { "Nose": "Slash" },
+        { "Tail": "Slash" },
+        { "Legs": "Blunt" },
+        { "Body": "Blunt" }
+      ],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Glacial Agnaktor",
+      "rank": "",
+      "island": "Loloska Region",
+      "attackPattern": {
+        "initial": "Technical",
+        "Ice Armor": "Power",
+        "enraged": "Speed"
+      },
+      "attackCounter": {
+        "initial": "Power",
+        "Ice Armor": "Speed",
+        "enraged": "Technical"
+      },
+      "elementWeakness": "Fire",
+      "partWeakness": [
+        { "Head": "Blunt" },
+        { "Body": "Blunt" },
+        { "Tail": "Blunt" },
+        { "Ice Head": "Slash" },
+        { "Ice Body": "Slash" },
+        { "Ice Tail": "Slash" }
+      ],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Great Baggi",
+      "rank": "",
+      "island": "Loloska Region",
+      "attackPattern": {
+        "initial": "Speed",
+        "enraged": "Technical"
+      },
+      "attackCounter": {
+        "initial": "Technical",
+        "enraged": "Power"
+      },
+      "elementWeakness": "Fire",
+      "partWeakness": [{ "N/A": "" }],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Gypceros",
+      "rank": "",
+      "island": "Loloska Region",
+      "attackPattern": {
+        "initial": "Power",
+        "enraged": "Technical"
+      },
+      "attackCounter": {
+        "initial": "Speed",
+        "enraged": "Power"
+      },
+      "elementWeakness": "Fire",
+      "partWeakness": [
+        { "Head": "Pierce" },
+        { "Stomach": "Slash" },
+        { "Tail": "Slash" }
+      ],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Jade Barroth",
+      "rank": "",
+      "island": "Loloska Region",
+      "attackPattern": {
+        "initial": "Power",
+        "Covered in Snow": "Technical",
+        "Enraged": "Speed"
+      },
+      "attackCounter": {
+        "initial": "Speed",
+        "Covered in Snow": "Power",
+        "Enraged": "Technical"
+      },
+      "elementWeakness": "Thunder",
+      "partWeakness": [
+        { "Head": "Blunt" },
+        { "Body": "Slash" },
+        { "Legs": "Slash" },
+        { "Tail": "Pierce" }
+      ],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Kecha Wacha",
+      "rank": "",
+      "island": "Loloska Region",
+      "attackPattern": {
+        "initial": "Speed",
+        "enraged": "Technical"
+      },
+      "attackCounter": {
+        "initial": "Technical",
+        "enraged": "Power"
+      },
+      "elementWeakness": "Fire",
+      "partWeakness": [
+        { "Head": "Slash" },
+        { "Body": "Slash" },
+        { "Tail": "Slash" },
+        { "Claws": "Blunt" }
+      ],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Khezu",
+      "rank": "",
+      "island": "Loloska Region",
+      "attackPattern": {
+        "initial": "Technical",
+        "enraged": "Power"
+      },
+      "attackCounter": {
+        "initial": "Power",
+        "enraged": "Speed"
+      },
+      "elementWeakness": "Fire",
+      "partWeakness": [{ "Head": "Pierce" }, { "Body": "Blunt" }],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Lagombi",
+      "rank": "",
+      "island": "Loloska Region",
+      "attackPattern": {
+        "initial": "Speed",
+        "enraged": "Power"
+      },
+      "attackCounter": {
+        "initial": "Technical",
+        "enraged": "Speed"
+      },
+      "elementWeakness": "Fire",
+      "partWeakness": [{ "Stomach": "Slash" }, { "Legs": "Slash" }],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Legiana",
+      "rank": "",
+      "island": "Loloska Region",
+      "attackPattern": {
+        "initial": "Speed",
+        "enraged": "Power",
+        "Flying": "Technical"
+      },
+      "attackCounter": {
+        "initial": "Technical",
+        "enraged": "Speed",
+        "Flying": "Power"
+      },
+      "elementWeakness": "Thunder",
+      "partWeakness": [
+        { "Head": "Slash" },
+        { "Wings": "Slash" },
+        { "Body": "Slash" }
+      ],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Nerscylla",
+      "rank": "",
+      "island": "Loloska Region",
+      "attackPattern": {
+        "initial": "Technical",
+        "enraged": "Speed"
+      },
+      "attackCounter": {
+        "initial": "Power",
+        "enraged": "Technical"
+      },
+      "elementWeakness": "Fire",
+      "partWeakness": [
+        { "Head": "Blunt" },
+        { "Needle": "Pierce" },
+        { "Legs": "Slash" },
+        { "Stomach": "Slash" },
+        { "Chest": "Pierce" }
+      ],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Red Khezu",
+      "rank": "",
+      "island": "Loloska Region",
+      "attackPattern": {
+        "initial": "Technical",
+        "Charged": "Speed",
+        "enraged": "Power"
+      },
+      "attackCounter": {
+        "initial": "Power",
+        "Charged": "Technical",
+        "enraged": "Speed"
+      },
+      "elementWeakness": "Water",
+      "partWeakness": [{ "Head": "Pierce" }, { "Body": "Slash" }],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Seltas Queen",
+      "rank": "",
+      "island": "Loloska Region",
+      "attackPattern": {
+        "initial": "Technical",
+        "Combined": "Power",
+        "enraged": "Speed"
+      },
+      "attackCounter": {
+        "initial": "Power",
+        "Combined": "Speed",
+        "enraged": "Technical"
+      },
+      "elementWeakness": "Fire",
+      "partWeakness": [
+        { "Seltas": "Pierce" },
+        { "Head": "Pierce" },
+        { "Legs": "Blunt" },
+        { "Body": "Pierce" }
+      ],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Tobi-Kadachi",
+      "rank": "",
+      "island": "Loloska Region",
+      "attackPattern": {
+        "initial": "Speed",
+        "enraged": "Technical",
+        "overcharge": "Power"
+      },
+      "attackCounter": {
+        "initial": "Technical",
+        "enraged": "Power",
+        "overcharge": "Speed"
+      },
+      "elementWeakness": "Water",
+      "partWeakness": [
+        { "Body": "Slash" },
+        { "Tail": "Slash" },
+        { "Legs": "Slash" }
+      ],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Zamtrios",
+      "rank": "",
+      "island": "Loloska Region",
+      "attackPattern": {
+        "initial": "Technical",
+        "covered in ice": "Speed",
+        "inflated": "Power"
+      },
+      "attackCounter": {
+        "initial": "Power",
+        "covered in ice": "Technical",
+        "inflated": "Speed"
+      },
+      "elementWeakness": "Thunder",
+      "partWeakness": [
+        { "Head": "Blunt" },
+        { "Stomach": "Slash" },
+        { "Legs": "Slash" }
+      ],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    },
+    {
+      "name": "Zinogre",
+      "rank": "",
+      "island": "Loloska Region",
+      "attackPattern": {
+        "initial": "Speed",
+        "when charged": "Technical",
+        "when supercharged": "Power"
+      },
+      "attackCounter": {
+        "initial": "Technical",
+        "when charged": "Power",
+        "when supercharged": "Speed"
+      },
+      "elementWeakness": "Ice",
+      "partWeakness": [
+        { "Head": "Pierce" },
+        { "Body": "Pierce" },
+        { "Tail": "Slash" }
+      ],
+      "icon": "",
+      "eggPattern": "",
+      "img": ""
+    }
+  ]
+}
